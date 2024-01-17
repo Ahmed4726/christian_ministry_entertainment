@@ -1,0 +1,175 @@
+/* .card-center{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+       
+       
+   
+
+}
+.card-title{
+        text-align: center;
+} */
+/* .main-footer{
+       
+       
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+} */
+
+.cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+.has-bg-img {
+        position: relative;
+        width: 100%;
+        height: 100vh; /* Set the height to 100% of the viewport */
+        overflow: hidden; /* Hide any overflow from child elements */
+    }
+
+    .bg-img-home {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('/dist/img/aerial-background.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+.vendor-name{
+        font-size: 22px;
+}
+    .bg-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('/dist/img/header-image.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .card-image
+    {
+        width: 100%;
+    max-height: 16vw;
+    object-fit: cover;
+    }
+    @media (max-width: 768px) {
+        .card-image {
+            max-height: 500px; /* Adjust this value for mobile screens */
+        }
+    }
+ .h1-text-size{
+        font-size: 60px;
+ }   
+ .p-text-size{
+        font-size: 25px;
+ }    
+ @media (max-width: 768px) {
+        .h1-text-size {
+            font-size: 24px;
+        }
+        .p-text-size {
+            font-size: 15px;
+        }
+    } 
+ .home-button{
+        margin-bottom: 200px;
+        padding-bottom: 100px;
+ }   
+    
+    
+    
+.service-text{
+        font-size: 21px;
+}
+.giftcard_text {
+        position: absolute;
+        top: 40%;
+        left:51%;
+        /* font-size: 5.8rem; */
+        transform: translate(-50%, -50%);
+      }
+      .n_store_text{
+        position: absolute;
+        top: 40%;
+        left:51%;
+        /* font-size: 5.8rem; */
+        transform: translate(-50%, -50%);
+      }
+      .img-container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }    
+.p-home{
+        margin-top: 290px;
+        font-size: 25px;
+}  
+    
+/* .header-image{
+        margin-top: -430px;
+} */
+/* .header-text{
+        font-size: 5.8rem;
+        font-weight: bold;
+}         */
+.psp-text{
+        font-size: 35px;
+}
+.blog-card-header{
+        font-size: 20px;
+}
+.blog-text{
+        font-size: 21px;
+        color: grey;
+}
+.psp-2-text{
+        font-size:25px ;
+}
+.all-product-p{
+        padding-bottom: 20px;
+}
+.shop-mall{
+        font-size: 30px;
+}
+/* .background-image{
+        background-image: url('public/dist/img/aerial-background.jpg');
+        background-size: cover;
+        background-position: center;
+}
+.background-img{
+        background-image: url('/public/dist/img/aerial-background.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+} */
+.nav-link{
+        font-size: 19px;
+        font-weight:500;
+}
+.product_title{
+        text-align: center;
+        font-weight: bold;
+}
+.our-banner .caption {
+        position: absolute;
+        top: 29%;
+        width: 100%;
+}
+.our-banner img {
+        width: 100%;
+      }
